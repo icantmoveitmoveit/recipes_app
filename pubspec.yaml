@@ -1,0 +1,31 @@
+name: recipes_app
+description: "Книга рецептов - учебное Flutter-приложение."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router:
+  get_it:
+  talker:
+  talker_flutter:
+  dio:
+  equatable:
+  flutter_bloc:
+  talker_dio_logger:
+  talker_bloc_logger:
+  json_annotation:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner:
+  json_serializable:
+
+flutter:
+  uses-material-design: true
